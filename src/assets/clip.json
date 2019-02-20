@@ -1,0 +1,94 @@
+{
+  "scenes": [
+    {
+      "elements": [
+        {
+          "bottom": "5%",
+          "content": "Welcome to Japan",
+          "fontColor": "white",
+          "fontFamily": "Arial",
+          "fontSize": "100px",
+          "height": "30%",
+          "id": "e072",
+          "left": "5%",
+          "type": "text",
+          "width": "70%",
+          "startTime": 100,
+          "duration": 5000
+        },
+        {
+          "height": "100%",
+          "id": "e820",
+          "type": "video",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "src": "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-714946.jpg",
+          "startTime": 0,
+          "duration": 5100
+        },
+        {
+          "height": "50%",
+          "left": "10%",
+          "top": "10%",
+          "id": "e822",
+          "type": "image",
+          "width": "50%",
+          "src": "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-719247.jpg",
+          "startTime": 3000,
+          "duration": 2000,
+          "zIndex": 90
+        }
+      ],
+      "id": "scene0"
+    },
+    {
+      "elements": []
+    },
+    {
+      "elements": [
+        {
+          "bottom": "5%",
+          "content": "Arigato Gozaimas",
+          "fontColor": "white",
+          "fontFamily": "Arial",
+          "fontSize": "120px",
+          "height": "30%",
+          "id": "e549",
+          "right": "5%",
+          "type": "text",
+          "width": "70%",
+          "startTime": 100,
+          "duration": 5000
+        },
+        {
+          "height": "100%",
+          "id": "e880",
+          "type": "video",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "src": "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-716922.jpg",
+          "startTime": 0,
+          "duration": 5100
+        },
+        {
+          "height": "30%",
+          "left": "5%",
+          "top": "5%",
+          "id": "e712",
+          "type": "video",
+          "width": "30%",
+          "src": "https://cdn8.wibbitz.com/videos/b10f0d8c076e4beeb575f829fb6e752e.mp4",
+          "startTime": 0,
+          "duration": 5100
+        }
+      ],
+      "id": "scene2"
+    },
+    {
+      "elements": [],
+      "id": "scene3"
+    }
+  ]
+}

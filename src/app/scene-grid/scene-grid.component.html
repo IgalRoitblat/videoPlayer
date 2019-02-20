@@ -1,0 +1,4 @@
+<div class="scene-grid">
+	<h2>Scenes</h2>
+	<app-scene *ngFor="let scene of sceneService.allScences; let index = index" [scene]="scene" [sceneType]="'preview'" [index]="index"></app-scene>
+</div>

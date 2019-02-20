@@ -1,0 +1,16 @@
+.player-controls {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+button {
+	height: 2rem;
+	width: 6rem;
+	margin: 1rem;
+	margin-left: 0;
+}
+
+app-seek-bar {
+	width: 40%;
+}

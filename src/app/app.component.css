@@ -1,0 +1,14 @@
+app-video-player {
+	width: 60%;
+}
+
+app-scene-grid {
+	width: 20%;
+}
+
+.program-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}

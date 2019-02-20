@@ -1,0 +1,2 @@
+<h3 *ngIf="sceneType === 'preview' && scene.elements.length > 0">Scene {{ index + 1 }}</h3>
+<app-clip *ngFor="let clip of scene.elements" [clip]="clip" [sceneType]="sceneType" [sceneId]="scene.id"></app-clip>

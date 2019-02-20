@@ -1,0 +1,6 @@
+<div [ngStyle]="style" (click)="onClick($event, clip.id)" [ngClass]="{blurred: clipRemoved}">
+	<img *ngIf="imageWillLoad && clip.src" [src]="clip.src" alt="preview" class="scene-preview-image" (error)="previewElementSwap($event)" [ngStyle]="style">
+	<video *ngIf="!imageWillLoad && clip.src" [src]="clip.src" class="scene-preview-image" [autoplay]="shouldVideoAutoplay()" loop></video>
+	<p *ngIf="sceneType === 'preview' && clip.src">{{ clipDuration.minute }}:{{ clipDuration.seconds }}</p>
+	<span *ngIf="sceneType === 'playable' && !clip.src">{{ clip.content }}</span>
+</div>

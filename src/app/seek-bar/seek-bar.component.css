@@ -1,0 +1,17 @@
+#custom-seekbar {  
+  cursor: pointer;
+  height: 30px;
+  outline: thin solid orange;
+  overflow: hidden;
+  position: relative;
+  width: 540px;
+}
+
+#custom-seekbar span {
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 0px;
+}

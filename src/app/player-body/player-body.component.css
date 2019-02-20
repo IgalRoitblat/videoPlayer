@@ -1,0 +1,6 @@
+.player-body {
+	position: relative;
+	height: 40rem;
+	width: 50rem;
+	border: 1px solid;
+}
